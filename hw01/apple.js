@@ -1,21 +1,18 @@
 const headerList = ['序號', '班級', '學號', '姓名', 'GitHub', '作業一', '作業二', '作業三', '作業四', '作業五', '作業六', '作業七', '作業八',	'作業九',	'作業十'];
 const classes = ['資工系', '資工所', '電資AI', '電資資安', '創新AI'];
-const idF = ["111", "112"];
-const idS = ["590", "598", "C52", "C53", "C71"];
 const charac= '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-function randomclass(){
-    return classes[Math.random() * classes.length];
-}
-
-function ID(){
+  
+  function ID(){
+    const idF = ["111", "112"];
+    const idS = ["590", "598", "C52", "C53", "C71"];
     const ID1 = idF[Math.floor(Math.random() * idF.length)];
     const ID2 = idS[Math.floor(Math.random() * idS.length)];
     const ID3 = (Math.floor(Math.random() * 999) + 1).toString().padStart(3, '0');
     
     return ID1+ID2+ID3;
-}
+  }
 
-function generateRandomUsername() {
+  function generateRandomUsername() {
     let username = '';
   
     for (let i = 0; i < 10; i++) {
@@ -25,6 +22,11 @@ function generateRandomUsername() {
   
     return username;
   }
+
+  function randomclass(){
+    return classes[Math.random() * classes.length];
+  }
+
   function ScoreList() {
     const scoreList = [];
   
