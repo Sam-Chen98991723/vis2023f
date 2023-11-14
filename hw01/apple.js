@@ -12,7 +12,7 @@ const charac= '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     return ID1+ID2+ID3;
   }
 
-  function generateRandomUsername() {
+  function Username() {
     let username = '';
   
     for (let i = 0; i < 10; i++) {
@@ -53,7 +53,7 @@ const charac= '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
       let className = randomclass();
       let studentId = ID();
       let studentName = "User";
-      let githubId = generateRandomUsername();
+      let githubId = Username();
       let scoreList = ScoreList();
   
       let rowItems = [index, className, studentId, studentName, githubId];
@@ -87,7 +87,7 @@ const charac= '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
       let className = randomclass();
       let studentId = ID();
       let studentName = "User";
-      let githubId = generateRandomUsername();
+      let githubId = Username();
       let scoreList = ScoreList();
   
       let rowItems = [index, className, studentId, studentName, githubId];
