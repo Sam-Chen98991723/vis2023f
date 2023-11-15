@@ -24,7 +24,9 @@ const charac= '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
   }
 
   function randomclass(){
-    return classes[Math.random() * classes.length];
+    
+    return classes[parseInt(Math.random() * classes.length)];
+    
   }
 
   function ScoreList() {
