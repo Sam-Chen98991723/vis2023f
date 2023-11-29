@@ -1,0 +1,14 @@
+{
+  "name": "95f1d50b1caa9f2a",
+  "main": "95f1d50b1caa9f2a@20.js",
+  "version": "20.0.0",
+  "homepage": "https://observablehq.com/d/95f1d50b1caa9f2a",
+  "author": {
+    "name": "Sam Chen's Workspace",
+    "url": "https://observablehq.com/@sam-chen-ws"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
